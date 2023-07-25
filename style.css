@@ -82,10 +82,9 @@ img {
 .header .container {
     display: flex;
     align-items: center;
-    flex: 1;
 }
 
-.signup {
+.hero-left .signup {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
