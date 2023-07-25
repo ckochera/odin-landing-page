@@ -28,10 +28,11 @@ ul {
 .navbar {
     background-color: #1F2937;
     color: #F9FAF8;
+    height: 75px;
 }
 
 .navbar .logo {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -45,8 +46,11 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .navbar ul {
     display: flex;
+    gap: 25px;
 }
+
