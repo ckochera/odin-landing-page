@@ -56,6 +56,7 @@ ul {
 
 .header {
     background-color: #1F2937;
+    min-height: 400px;
 }
 
 .header h1 {
@@ -68,3 +69,7 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.header .container {
+    display: flex;
+    }
