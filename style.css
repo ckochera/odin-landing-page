@@ -107,8 +107,29 @@ img {
 .cards .container {
     display: flex;
     justify-content: space-between;
+    min-height: 400px;
 }
 
-.card {
-    flex: 1;
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-paragraph {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 25px;
+}
+
+.thor {
+    color: #1F2937;
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: flex-end;
 }
